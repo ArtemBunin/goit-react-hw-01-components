@@ -1,0 +1,30 @@
+.statistics{
+    margin: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 380px;
+}
+
+.statlist {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: inherit;
+}
+
+.label{
+    display: block;
+    color: black;
+    
+}
+.percentage{
+    display: block;
+    color: black;
+   
+}
+.item{
+    border: 1px solid black;
+    width: calc(100% / 5 );
+}

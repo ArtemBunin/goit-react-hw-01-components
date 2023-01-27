@@ -1,31 +1,30 @@
-.item{
-    display: flex;
-    justify-content: start;
-    background-color: aliceblue;
-    border: 1px solid rgb(197, 167, 167);
-    border-radius: 15px;
- align-items: center;
- margin-bottom: 15px;
+.item {
+  display: flex;
+  justify-content: flex-start;
+  background-color: aliceblue;
+  border: 1px solid rgb(197, 167, 167);
+  border-radius: 15px;
+  align-items: center;
+  margin-bottom: 15px;
 }
-.name{
-    margin-right: 10px;
-    color: black;
-    font-size: 20px;
+.name {
+  margin-right: 10px;
+  color: black;
+  font-size: 20px;
 }
 
 .status {
-   
-    display: block;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background-color: green;
-    margin-right: 10px;
-    margin-left: 10px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: green;
+  margin-right: 10px;
+  margin-left: 10px;
 }
-.true{
-    background-color: red;
+.true {
+  background-color: red;
 }
-.false{
-    background-color: blue;
+.false {
+  background-color: blue;
 }

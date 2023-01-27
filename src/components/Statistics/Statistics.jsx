@@ -3,7 +3,7 @@ import css from '../Statistics/Statistics.module.css';
 function StatisitcList({ title, stats }) {
   return (
     <section className={css.statistics}>
-      {title ? <h2 className="title">{title}</h2> : <h2></h2>}
+      {title && <h2 className="title">{title}</h2>}
 
       <ul className={css.statlist}>
         {stats.map(({ id, label, percentage }) => (
